@@ -31,7 +31,7 @@
   - Commit message 변경하기
     - push까지 했을경우
       - vi 에디터 사용
-      - `git rebase HEAD&#126;1 -i`
+      - `git rebase HEAD~1 -i`
       - 나오는 창에서 i 누르면 insert 모드로 변경됨
       - pick을 reword로 변경
       - esc 키 누르고 `:wq` 입력
