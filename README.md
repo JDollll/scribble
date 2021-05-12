@@ -26,3 +26,18 @@
   - 참고
     - [Oracle Docs](https://docs.oracle.com/javaee/7/api/javax/annotation/PostConstruct.html)
     - [Stack Overflow](https://stackoverflow.com/questions/3406555/why-use-postconstruct)
+
+## Git
+  - Commit message 변경하기
+    - push까지 했을경우
+      - vi 에디터 사용
+      - `git rebase HEAD&#126;1 -i`
+      - 나오는 창에서 i 누르면 insert 모드로 변경됨
+      - pick을 reword로 변경
+      - esc 키 누르고 `:wq` 입력
+      - commit message 수정
+      - esc 키 누르고 `:wq` 입력
+      - `git push --force` 강제로 푸쉬
+        - 근데 강제푸쉬 하는거 안좋다고 들었음... ㅠㅠ
+
+
