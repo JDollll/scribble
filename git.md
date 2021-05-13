@@ -4,15 +4,17 @@
 ### 기본
   - 서버에 있는거 받을때
     - git 위치에서 cmd로! cmd가 간지니까
-    - `git fetch top`
-    - `git pull top master`    
+    - `git fetch origin`
+    - `git pull origin main`    
   - 내가 한거 올릴때
     - `git add *` 모든파일, 뒤에 파일명 적어도됨
       - sublime merge 써서 맨날 stage 눌렀는데...
     - `git commit -m"커밋메세지"`
       - 이것도 sublime merge 써서 맨날 커밋메세지 쓰고 커밋버튼 눌렀는데...
-    - `git push top mater`  
-  - sublime merge 쓰면 편함! ㅋㅋㅋㅋㅋ    
+    - `git push origin main`    
+  - sublime merge 쓰면 편함! ㅋㅋㅋㅋㅋ
+  - origin : remote 저장소 이름, 변경가능  
+  - main : branch 이름
 
 ### Commit message 변경하기
   - push까지 했을경우
