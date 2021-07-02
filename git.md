@@ -33,4 +33,12 @@
   - `rm -rf 폴더명`
   - commit push
 
+### Resolve
+  - Git 입장에서 생각해야됨
+  - ours는 내꺼가 아니라 master를 지칭
+  - theirs가 내꺼 라고 생각하면 편함
+  - 계속 ours 쓰다가 구글링해봄
+  - 출처 : http://www.ohyecloudy.com/ddiary/2017/12/12/til-git-checkout-ours-or-theirs/
+
+
 
