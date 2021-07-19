@@ -36,6 +36,26 @@
     - 그냥 딱 비어있는 list를 리턴해야될 경우에 사용해야됨
     - 무턱대고 썼다가는 add, get 등 우리가 써야될 메소드도 못쓰고 되던거 안되고 exception 발생함
 
+### ibatis CLOB Select, Insert
+  - CLOB 데이터를 insert 혹은 select 해올때 처리
+  - Insert
+    ```xml
+      <insert id="" parameterClass="">
+        INSERT INTO TABLE VALUES (#param:CLOB#)
+      </insert>
+    ```
+  - Select
+    - resultMap 선언 및 select
+      ```xml
+      <resultMap class="egovMap" id="resultId">
+        <result property="propertyNm" column="columnName" jdbcType="CLOB" javaType="java.lang.String"/>
+      </resultMap>
+
+      <select id="" parameterClass="" resultClass="" resultMap="resultId">
+        SELECT columnName FROM TABLE WHERE ...
+      </select>
+      ```
+
 
 ## JS
 ### localStorage
